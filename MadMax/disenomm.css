@@ -1,0 +1,28 @@
+h1, h3 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #FFD700; /* Amarillo desgastado tipo advertencia */
+    text-shadow: 3px 3px 0px #000, 5px 5px 10px rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #FF4500, #8B0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Efecto de vibración para que parezca tembloroso */
+@keyframes glitch {
+    0% { text-shadow: 3px 3px 0px #000; }
+    25% { text-shadow: -3px -3px 0px #FFD700; }
+    50% { text-shadow: 3px -3px 0px #000; }
+    75% { text-shadow: -3px 3px 0px #FFD700; }
+    100% { text-shadow: 3px 3px 0px #000; }
+}
+
+h1:hover {
+    animation: glitch 0.2s infinite;
+}
+
+h3:hover {
+    animation: glitch 0.2s infinite;
+}

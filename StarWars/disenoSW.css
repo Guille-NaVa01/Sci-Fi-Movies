@@ -1,0 +1,60 @@
+.table_sw {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #1A1A40;
+    color: #FFD700;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+/* Encabezados de la tabla */
+.table_sw thead {
+    background-color: #222255;
+    color: #FFD700;
+    text-transform: uppercase;
+}
+
+.table_sw th, .table_sw td {
+    padding: 12px 20px;
+    border: 2px solid #FFD700;
+}
+
+.table_sw th {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2em;
+}
+
+/* Alternar color de filas */
+.table_sw tbody tr:nth-child(even) {
+    background-color: #29294D;
+}
+
+/* Hover en filas */
+.table_sw tbody tr:hover {
+    background-color: rgba(255, 215, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo especial para las celdas combinadas */
+.table_sw td[rowspan], .table_sw td[colspan] {
+    font-weight: bold;
+    text-align: center;
+}
+
+td a {
+    text-decoration: none; /* Quita el subrayado */
+    color: black;
+    background: #e5e5bf;
+
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+td a:hover {
+    background: white;
+    transform: scale(1.1); /* Agranda un poco el botón */
+}

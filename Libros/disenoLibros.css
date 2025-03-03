@@ -1,0 +1,65 @@
+.principal{
+    background: url('libreria.jpg'); /* Fondo de espacio o ciencia ficción */
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Ajusta la imagen para cubrir toda el área */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-position: center;
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco translúcido */
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 70%;
+}
+
+.menu h1, h2 {
+    font-family: "Orbitron", serif;
+    font-size: 2.5em;
+    color: #222;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu p {
+    font-family: "Lora", serif;
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    gap: 16px;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Aumento el tiempo de transición */
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Mayor escala para el efecto de ampliación */
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6); /* Sombras más pronunciadas */
+}

@@ -1,0 +1,175 @@
+/* Fondo del body con un gradiente futurista */
+.principal{
+    background: linear-gradient(130deg, rgba(0, 0, 50, 0.8), rgba(0, 0, 100, 0.8)), url('SF.png'); /* Fondo de espacio o ciencia ficción */
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.sw{
+    background: linear-gradient(90deg, rgba(223, 39, 23, 0.8), rgba(34, 6, 220, 0.8)), url('StarWars/SWIII.jpg'); /* Fondo de espacio o ciencia ficción */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.duna{
+    background: linear-gradient(90deg, rgba(6, 6, 6, 0.8), rgba(238, 143, 10, 0.8)), url('Dune2/DUNE1.jpeg'); /* Fondo de espacio o ciencia ficción */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.blade{
+    background: linear-gradient(90deg, rgba(210, 11, 203, 0.379), rgba(103, 2, 146, 0.363)), url('Blade/Blade2.jpeg'); /* Fondo de espacio o ciencia ficción */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.mad{
+    background: linear-gradient(0.5turn, #3f87a63d, #ebf8e124, #f69c3c1b), url(MadMax/mad2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza {
+    width: 100%; 
+    height: 70px;
+    background: url(StarWars/hip.jpg);
+    background-size: cover; /* Ajusta el GIF para cubrir toda el área */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-position: center;
+    border-radius: 15px;
+    margin: 0px auto 30px auto;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cabeza:hover {
+    background: url(StarWars/hiperespacio.gif);
+    background-size: cover; /* Ajusta el GIF para cubrir toda el área */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-position: center;
+    border-radius: 15px;
+    margin: 0px auto 30px auto;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del menú */
+.menu {
+    width: 90%; 
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco translúcido */
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.menu h1, h2 {
+    font-family: "Orbitron", serif;
+    font-size: 2.5em;
+    color: #222;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu p {
+    font-family: "Lora", serif;
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos horizontalmente */
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block; /* Pone los elementos en línea */
+    margin-right: 12rem;
+    font-family: "Orbitron", serif;
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: black;
+    background: #f0eece;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: #d87f24;
+    transform: scale(1.1); /* Agranda un poco el botón */
+}
+
+fieldset{
+    background: url(StarWars/matrix.gif);
+    background-size: cover; /* Ajusta el GIF para cubrir toda el área */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-position: center;
+}
+
+label{
+    color: #ffffff;
+    font-family: "Lora", serif;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    gap: 16px;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 400px;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Aumento el tiempo de transición */
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Mayor escala para el efecto de ampliación */
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6); /* Sombras más pronunciadas */
+}
+
+#bladeR il{
+    color: black;
+    font-family: "Lora", serif;
+}
+
+
